@@ -5,6 +5,10 @@ aumentaFonteBotao.addEventListener('click',function(){
     tamanhoAtual +=0.1;
     document.body.style.fontSize=`${TamanhoAtualFonte}rem`
 
+})
+diminuiFonteBotao.addEventListener('click',function(){
+    tamanhoAtual -=0.1;
+    document.body.style.fontSize=`${TamanhoAtualFonte}rem`
 
 })
 
